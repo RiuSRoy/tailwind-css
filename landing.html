@@ -9,26 +9,26 @@
 </head>
 <body>
     <div class="bg-gradient-to-r from-stone-600 to-black">
-        <nav class="p-4 text-yellow-500 ">
-            <ul class="flex justify-center space-x-12">
-                <li class="cursor-pointer font-semibold text-xl">Melons & Lemons</li>
-                <li class="cursor-pointer">Home</li>
-                <li class="cursor-pointer">About</li>
-                <li class="cursor-pointer">Location</li>
-                <li class="cursor-pointer">Contact</li>
+        <nav class="p-4 text-yellow-500 text-center">
+            <ul class="sm:flex sm:justify-center sm:space-x-12 space-y-6 ">
+                <li class="cursor-pointer font-semibold text-3xl hover:text-yellow-400">Melons & Lemons</li>
+                <li class="cursor-pointer text-xl hover:text-yellow-400 hover:underline">Home</li>
+                <li class="cursor-pointer text-xl hover:text-yellow-400 hover:underline">About</li>
+                <li class="cursor-pointer text-xl hover:text-yellow-400 hover:underline">Location</li>
+                <li class="cursor-pointer text-xl hover:text-yellow-400 hover:underline">Contact</li>
             </ul>
         </nav>
-        <main class="flex">
-            <div class="main text-white py-52 px-40 h-fit w-fit">
-                <h4 class="font-bold text-6xl py-5">Are you hungry?</h4>
-                <h1 class="font-extrabold text-9xl py-5">Don't Wait!</h1>
-                <h4 class="font-medium text-4xl py-5 text-yellow-500">Let's start to order food now!</h4>
-                <button class="bg-transparent hover:bg-yellow-500 font-semibold hover:text-black py-2 px-4 border border-yellow-500 hover:border-transparent rounded">
+        <main class="md:flex m-2  py-24 px-2 lg:py-24 xl:py-32 h-fit w-fit text-center md:text-left md:pl-10 lg:pl-24 xl:pl-40">
+            <div class="main text-white">
+                <h4 class="font-bold text-4xl sm:text-4xl lg:text-5xl xl:text-6xl py-5">Are you hungry?</h4>
+                <h1 class="font-extrabold text-6xl lg:text-7xl xl:text-9xl py-5">Don't Wait!</h1>
+                <h4 class="font-medium text-3xl py-5 text-yellow-500">Let's start to order food now!</h4>
+                <button class="btn">
                     Check out Menu
                   </button>
             </div>
-            <div class="flex float-right items-center w-fit">
-                <img src="./Lemons.png" class="saturate-150" />
+            <div class="md:shrink-0">
+                <img class="w-full" src="./Lemons.png" alt="Lemons">
             </div>
         </main>
     </div>
